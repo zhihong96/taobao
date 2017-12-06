@@ -7,7 +7,7 @@
     Scrapy 1.4.0
     MySQL-python 1.2.5
 
-项目解析
+项目
 ---------
     项目具体思路来源于： http://www.aobosir.com/blog/2016/12/26/python3-large-web-crawler-taobao-com-import-to-MySQL-database/
     
@@ -22,3 +22,7 @@
 删除红色部分，将剩下的组成网址，一样可以正常的浏览原网页。
 q= 后面是“小吃”的编码形式。
 s= 后面的数值等于 44*(当前页面-1)
+
+
+数据分析
+-----------
