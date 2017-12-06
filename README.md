@@ -13,11 +13,11 @@ MySQL-python 1.2.5
 ### 1. 创建项目  
 scrapy startproject taobaoSnack
 ### 2. 构建Item  
-class taobaoSnackItem(scrapy.Item):  
-    title = scrapy.Field() # 商品名称
+class taobaoSnackItem(scrapy.Item):
+    title = scrapy.Field() # 商品名称  
     shop = scrapy.Field() # 店面名称  
     link = scrapy.Field() # 链接  
-    price = scrapy.Field() # 价格
+    price = scrapy.Field() # 价格  
     comment = scrapy.Field() # 评论数量  
           
 ### 3. 分析网址结构
